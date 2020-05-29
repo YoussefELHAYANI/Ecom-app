@@ -29,6 +29,7 @@
     "@covalent/markdown": "^3.0.1",
     "mdbootstrap": "^4.18.0",
     "ng-semantic": "^1.1.13",
+    "primeng": "^9.1.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"

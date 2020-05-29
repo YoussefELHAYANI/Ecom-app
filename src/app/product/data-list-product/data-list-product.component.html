@@ -1,0 +1,11 @@
+<div>
+  <p>data-list-product works!</p>
+  <p-dataView [value]="products">
+    <ng-template let-product pTemplate="listItem">
+        <div>
+            {{product.id}}
+        </div>
+    </ng-template>
+  </p-dataView>
+</div>
+
