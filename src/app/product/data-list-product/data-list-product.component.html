@@ -1,11 +1,8 @@
-<div>
-  <p>data-list-product works!</p>
-  <p-dataView [value]="products">
-    <ng-template let-product pTemplate="listItem">
-        <div>
-            {{product.id}}
-        </div>
-    </ng-template>
-  </p-dataView>
+<div >
+
+  <mat-grid-list cols="3" rowHeight="2:1"  >
+
+    <mat-grid-tile *ngFor="let product of products">{{product.id}}</mat-grid-tile>
+  </mat-grid-list>
 </div>
 
