@@ -8,13 +8,16 @@ import { StoreModule } from '@ngrx/store';
 import { ProductReducer } from './store/product.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { ProductsEffects } from './store/product.effects';
+import { DetailProductComponent } from './detail-product/detail-product.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [DataListProductComponent],
+  declarations: [DataListProductComponent, DetailProductComponent],
   imports: [
     CommonModule,
     DataViewModule,
     MatGridListModule,
+    RouterModule,
     StoreModule.forFeature('products', ProductReducer),
     EffectsModule.forFeature([ProductsEffects])
   ],

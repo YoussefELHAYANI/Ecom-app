@@ -13,6 +13,7 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { ProductsEffects } from './product/data-list-product/store/product.effects';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -21,10 +22,12 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     NavComponent,
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     DataListProductModule,
+    AppRoutingModule,
     StoreModule.forRoot(reducers, {
       metaReducers,
       runtimeChecks: {

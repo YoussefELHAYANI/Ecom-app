@@ -2,7 +2,9 @@
 
   <mat-grid-list cols="3" rowHeight="2:1"  >
 
-    <mat-grid-tile *ngFor="let product of products">{{product.id}}</mat-grid-tile>
+    <mat-grid-tile (click)="goToProductDetails(product)" *ngFor="let product of products" >
+        {{product.id}}
+    </mat-grid-tile>
   </mat-grid-list>
 </div>
 
