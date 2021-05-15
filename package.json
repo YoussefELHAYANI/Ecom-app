@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
     "@angular/service-worker": "~9.1.6",
-    "@covalent/core": "^3.0.1",
+    "@covalent/core": "3.1.0",
     "@covalent/dynamic-forms": "^3.0.1",
     "@covalent/echarts": "^3.0.1",
     "@covalent/highlight": "^3.0.1",
