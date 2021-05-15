@@ -26,7 +26,7 @@
     "@covalent/dynamic-forms": "^3.0.1",
     "@covalent/echarts": "^3.0.1",
     "@covalent/highlight": "^3.0.1",
-    "@covalent/http": "^3.0.1",
+    "@covalent/http": "3.1.0",
     "@covalent/markdown": "^3.0.1",
     "@ngrx/effects": "^9.2.0",
     "@ngrx/entity": "^9.2.0",
